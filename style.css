@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.banner{
+    background-image: url('./assets/images/banner/banner2.png');
+    padding: 216px 230px;
+    background-size: auto;
+    
+    text-align: right;
+    background-repeat: no-repeat;
+}
+.banner .banner-inner{
+    width: 389px;
+    margin-left: auto;
+}
+.banner .banner-inner h2{
+    font-weight: 900;
+    font-size: 60px;
+}
+.banner .banner-inner p{
+    font-size: 16px;
+    margin-top: 19px;
+}
+.banner .banner-inner button{
+    background-color: #F15B22;
+    color: #FFFFFF;
+    border: none;
+    padding: 14px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 27px;
+}
+.my-failures{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 87px;
+    margin-top: 85px;
+}
+.my-failures .image-container img{
+   width: 450px;
+}
+.my-failures .previous{
+    width: 313px;
+}
+.my-failures .previous h2{
+    font-weight: 452px;
+    font-size: 43px;
+    margin-bottom: 21px;
+}
+.my-failures .previous p{
+    margin-bottom: 14px;
+    color: #444343; 
+}
+.my-failures .previous ul li{
+    margin-bottom: 7px;
+    color: #444343;
+}
+.my-plans-section .my-plans-list {
+   display: flex;
+   gap: 70px;
+   justify-content: center;
+   margin-top: 40px;
+}
+.my-plans-section h2{ 
+    text-align: center;
+    margin-top: 100px;
+}
+.my-plans-section .my-plans-list .single-plan{
+    text-align: center;
+}
+.my-plans-section .my-plans-list .single-plan img{
+    margin-bottom: 20px;
+    width: 67px;
+}
+.my-plans-section .my-plans-list .single-plan p{
+    color: #737272;
+    margin-top: 13px;
+}
+
+.Contact-section{
+    background-image: url('./assets/images/watch.png');
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+    margin: 0 auto;
+    width: 1140px;
+    margin-top: 120px;
+}
+.Contact-section .Contact-section-inner h2{
+    font-size: 33px;
+    width: 322px;
+}
+.Contact-section .Contact-section-inner button{
+    padding: 12px 25px;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    color: #F15B22;
+    margin-top: 25px;
+}
+.Contact-section .Contact-section-inner{
+    padding: 59px 65px;
+}
+.Subscribe-container{
+    align-items: center;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 130px 230px;
+}
+.footer-info{
+    width: 400px;
+}
+.footer-info p{
+    margin-top: 18px;
+}
+.footer-info .social-links a img{
+    width: 35px;
+    margin-right: 10px;
+}
+.footer-info .social-links{
+    margin-top: 22px;
+}
+ .Subscribe-container h3{
+    width: 20px 21px;
+    margin-bottom: 26px;
+ }
+.Subscribe-container input{
+  padding: 13px 17px;
+  border-radius: 8px;
+  border: 1px solid #FFFFFF;
+  background-color:black;
+  margin-bottom: 18px;
+}
+footer{
+    background-color: black;
+    color: #FFFFFF;
+    margin-top: 130px;
+}
+.Subscribe-container button{
+    padding: 14px 25px;
+    border-radius: 8px;
+    color: #F15B22;
+    border: none;
+}
+ 
